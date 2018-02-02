@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.android.project3.MainActivity">
+
+
+    <LinearLayout
+
+
+
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Can you answer corect to all?"
+            android:textColor="#03A9F4"
+            android:layout_gravity="center"
+            android:textSize="21dp"
+            android:textAllCaps="true"
+            android:padding="5dp"/>
+
+        <TextView
+
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF6D00"
+            android:text="how long lasted the 100 years war? "
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+
+                    android:id="@+id/years_100"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#03A9F4"
+                    android:paddingLeft="14dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:text="100 years"
+                    android:textSize="16sp"
+                    android:onClick="Check_q1"/>
+
+                <RadioButton
+
+                    android:id="@+id/years_108"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#2196F3"
+                    android:textStyle="bold"
+                    android:text="108 years"
+                    android:paddingLeft="14dp"
+                    android:textColor="#FFFF"
+                    android:textSize="16sp"
+                    android:onClick="Check_q1"/>
+
+                <RadioButton
+
+                    android:id="@+id/years_116"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="#03A9F4"
+                    android:textStyle="bold"
+                    android:text="116 years"
+                    android:textColor="#FFFF"
+                    android:paddingLeft="14dp"
+                    android:textSize="16sp"
+                    android:onClick="Check_q1"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+            <TextView
+
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Which is the country with the most dense population in the world? "
+                android:textSize="17sp"
+                android:textColor="#FF6D00"
+                android:textStyle="italic|bold"
+                android:layout_marginTop="15dp"
+                android:gravity="center"/>
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+
+                <RadioButton
+
+                    android:id="@+id/Monaco"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Monaco"
+                    android:textColor="#FFFF"
+                    android:paddingLeft="14dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:buttonTint="#03A9F4"
+                    android:textSize="16sp"
+                    android:onClick="Check_q2"/>
+
+                <RadioButton
+
+                    android:id="@+id/Singapore"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Singapore"
+                    android:buttonTint="#03A9F4"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:paddingLeft="14dp"
+                    android:textSize="16sp"
+                    android:onClick="Check_q2"/>
+
+                <RadioButton
+
+                    android:id="@+id/Malta"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#FFFF"
+                    android:text="Malta"
+                    android:textStyle="bold"
+                    android:buttonTint="#03A9F4"
+                    android:paddingLeft="14dp"
+                    android:textSize="16sp"
+                    android:onClick="Check_q2"/>
+
+
+            </RadioGroup>
+
+        <TextView
+
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How many humpbacks does a dromader have?"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF6D00"/>
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+
+                android:id="@+id/a0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:text="0"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="15dp"
+                android:textSize="16sp"
+                android:onClick="Check_q3"/>
+
+            <RadioButton
+
+                android:id="@+id/a1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q3"/>
+
+            <RadioButton
+
+                android:id="@+id/a2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2"
+                android:textColor="#FFFF"
+                android:buttonTint="#03A9F4"
+                android:textStyle="bold"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q3"/>
+
+        </RadioGroup>
+
+        <TextView
+
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The expresion be or not to be is belongs to?"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF6D00"/>
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+
+                android:id="@+id/Othello"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Othello"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q4"/>
+
+            <RadioButton
+
+                android:id="@+id/Romeo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Romeo"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q4"/>
+
+            <RadioButton
+
+                android:id="@+id/Hamlet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Hamlet"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q4"/>
+
+
+
+
+        </RadioGroup>
+
+        <TextView
+
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who was the first person to step on the moon?"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF6D00"/>
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+
+                android:id="@+id/Gagarin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gagarin"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q5"/>
+
+            <RadioButton
+
+                android:id="@+id/Armstrong"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Armstrong"
+                android:textStyle="bold"
+                android:textColor="#FFFF"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q5"/>
+
+            <RadioButton
+
+                android:id="@+id/H.White"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" H. White"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_q5"/>
+
+        </RadioGroup>
+
+        <TextView
+
+            android:id="@+id/q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who are the best two footballers right now?"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF6D00"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <CheckBox
+
+            android:id="@+id/Messi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Messi"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:buttonTint="#03A9F4"
+            android:paddingLeft="14dp"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:onClick="Ans"/>
+
+        <CheckBox
+
+            android:id="@+id/Neymar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Neymar"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="#FFFF"
+            android:buttonTint="#03A9F4"
+            android:paddingLeft="14dp"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:onClick="Ans"/>
+
+            <CheckBox
+
+                android:id="@+id/Ronaldo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Ronaldo"
+                android:layout_weight="1"
+                android:textColor="#FFFF"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:onClick="Ans"/>
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where can you learn programming?"
+            android:textSize="16sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF6D00"/>
+
+        <EditText
+
+            android:id="@+id/site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="You are learning from it"
+            android:layout_marginTop="15dp"
+            android:layout_margin="14dp"/>
+
+        <TextView
+
+            android:id="@+id/qp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have you ever watch dangeropa?"
+            android:textSize="16sp"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FF6D00"/>
+
+        <ImageView
+
+            android:id="@+id/monokumas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/monokumab"/>
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+
+                android:id="@+id/no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_qp"/>
+
+            <RadioButton
+
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:buttonTint="#03A9F4"
+                android:paddingLeft="14dp"
+                android:textSize="16sp"
+                android:onClick="Check_qp"/>
+
+        </RadioGroup>
+
+        <Button
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textColor="#ff0019"
+            android:background="#000000"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submit"/>
+
+    </LinearLayout>
+
+</ScrollView>
