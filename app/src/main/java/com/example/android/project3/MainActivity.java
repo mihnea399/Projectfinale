@@ -13,11 +13,9 @@ import android.widget.RadioGroup;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView monokumas;
-
     RadioButton years116, Monaco, a1, Hamlet, Armstrong, no, yes;
 
-    boolean q1, q2, q3, q4, q5, q6, q7, qp, Ronaldo, Messi, Neymar;
+    boolean q1, q2, q3, q4, q5, q6, q7, qp1 ,qp2, Ronaldo, Messi, Neymar;
 
     EditText Udacity;
 
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         Hamlet = (RadioButton) findViewById(R.id.Hamlet);
         Armstrong = (RadioButton) findViewById(R.id.Armstrong);
         no = (RadioButton) findViewById(R.id.no);
-        RadioButton no = (RadioButton) findViewById(R.id.no);
         yes = (RadioButton) findViewById(R.id.yes);
 
 
@@ -43,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void submit(View view) {
 
-        Check_qp(view);
+        Check_qp2(view);
+        Check_qp1(view);
         Check_q7(view);
         Check_q6(view);
         Intent i = new Intent(MainActivity.this, Part2.class);
@@ -54,8 +52,10 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra("q5", q5);
         i.putExtra("q6", q6);
         i.putExtra("q7", q7);
-        i.putExtra("qp", qp);
-        startActivityForResult(i, 103);
+        if (no.isChecked())i.putExtra("monokumas", R.drawable.monokumas);
+        else i.putExtra("monokumah",R.drawable.monokumah);
+        startActivity(i);
+        finish();
 
     }
 
@@ -191,19 +191,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void Check_qp(View view) {
+    public void Check_qp1(View view) {
 
         {
 
             if ((view.getId()) == R.id.no);
 
         }
-
-
-        if ((view.getId()) == R.id.yes) ;
-
     }
+public  void Check_qp2 (View view) {
 
+        if ((view.getId()) == R.id.yes);
+}
 }
 
 
