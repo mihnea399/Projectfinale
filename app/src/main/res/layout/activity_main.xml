@@ -59,11 +59,11 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:buttonTint="#03A9F4"
-                    android:paddingLeft="14dp"
+                    android:paddingLeft="12dp"
                     android:textStyle="bold"
                     android:textColor="#FFFF"
                     android:text="100 years"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:onClick="Check_q1"/>
 
                 <RadioButton
@@ -75,9 +75,9 @@
                     android:buttonTint="#2196F3"
                     android:textStyle="bold"
                     android:text="108 years"
-                    android:paddingLeft="14dp"
+                    android:paddingLeft="12dp"
                     android:textColor="#FFFF"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:onClick="Check_q1"/>
 
                 <RadioButton
@@ -90,8 +90,8 @@
                     android:textStyle="bold"
                     android:text="116 years"
                     android:textColor="#FFFF"
-                    android:paddingLeft="14dp"
-                    android:textSize="16sp"
+                    android:paddingLeft="12dp"
+                    android:textSize="15sp"
                     android:onClick="Check_q1"/>
 
             </RadioGroup>
@@ -125,11 +125,11 @@
                     android:layout_height="wrap_content"
                     android:text="Monaco"
                     android:textColor="#FFFF"
-                    android:paddingLeft="14dp"
+                    android:paddingLeft="12dp"
                     android:textStyle="bold"
                     android:layout_weight="1"
                     android:buttonTint="#03A9F4"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:onClick="Check_q2"/>
 
                 <RadioButton
@@ -142,8 +142,8 @@
                     android:buttonTint="#03A9F4"
                     android:textStyle="bold"
                     android:textColor="#FFFF"
-                    android:paddingLeft="14dp"
-                    android:textSize="16sp"
+                    android:paddingLeft="12dp"
+                    android:textSize="15sp"
                     android:onClick="Check_q2"/>
 
                 <RadioButton
@@ -156,8 +156,8 @@
                     android:text="Malta"
                     android:textStyle="bold"
                     android:buttonTint="#03A9F4"
-                    android:paddingLeft="14dp"
-                    android:textSize="16sp"
+                    android:paddingLeft="12dp"
+                    android:textSize="15sp"
                     android:onClick="Check_q2"/>
 
 
@@ -192,8 +192,8 @@
                 android:textStyle="bold"
                 android:text="0"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="15dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q3"/>
 
             <RadioButton
@@ -206,8 +206,8 @@
                 android:textStyle="bold"
                 android:textColor="#FFFF"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q3"/>
 
             <RadioButton
@@ -220,8 +220,8 @@
                 android:textColor="#FFFF"
                 android:buttonTint="#03A9F4"
                 android:textStyle="bold"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q3"/>
 
         </RadioGroup>
@@ -254,8 +254,8 @@
                 android:textStyle="bold"
                 android:text="Othello"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q4"/>
 
             <RadioButton
@@ -267,8 +267,8 @@
                 android:textStyle="bold"
                 android:text="Romeo"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q4"/>
 
             <RadioButton
@@ -280,8 +280,8 @@
                 android:textStyle="bold"
                 android:text="Hamlet"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q4"/>
 
 
@@ -318,8 +318,8 @@
                 android:textStyle="bold"
                 android:textColor="#FFFF"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q5"/>
 
             <RadioButton
@@ -332,8 +332,8 @@
                 android:textStyle="bold"
                 android:textColor="#FFFF"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q5"/>
 
             <RadioButton
@@ -346,8 +346,8 @@
                 android:textColor="#FFFF"
                 android:textStyle="bold"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
                 android:onClick="Check_q5"/>
 
         </RadioGroup>
@@ -380,8 +380,8 @@
             android:textStyle="bold"
             android:textColor="#FFFF"
             android:buttonTint="#03A9F4"
-            android:paddingLeft="14dp"
-            android:textSize="16sp"
+            android:paddingLeft="12dp"
+            android:textSize="15sp"
             android:layout_marginTop="15dp"
             android:onClick="Ans"/>
 
@@ -395,8 +395,8 @@
             android:layout_weight="1"
             android:textColor="#FFFF"
             android:buttonTint="#03A9F4"
-            android:paddingLeft="14dp"
-            android:textSize="16sp"
+            android:paddingLeft="12dp"
+            android:textSize="15sp"
             android:layout_marginTop="15dp"
             android:onClick="Ans"/>
 
@@ -409,9 +409,9 @@
                 android:layout_weight="1"
                 android:textColor="#FFFF"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
+                android:paddingLeft="12dp"
                 android:textStyle="bold"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 android:layout_marginTop="15dp"
                 android:onClick="Ans"/>
 
@@ -456,7 +456,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="gone"
-            android:src="@drawable/monokumab"/>
+            android:src="@drawable/monokumas"/>
 
         <RadioGroup
 
@@ -475,9 +475,9 @@
                 android:textColor="#FFFF"
                 android:textStyle="bold"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
-                android:onClick="Check_qp"/>
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
+                android:onClick="Check_qp2"/>
 
             <RadioButton
 
@@ -489,9 +489,9 @@
                 android:textColor="#FFFF"
                 android:textStyle="bold"
                 android:buttonTint="#03A9F4"
-                android:paddingLeft="14dp"
-                android:textSize="16sp"
-                android:onClick="Check_qp"/>
+                android:paddingLeft="12dp"
+                android:textSize="15sp"
+                android:onClick="Check_qp1"/>
 
         </RadioGroup>
 
