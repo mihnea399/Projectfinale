@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q1 you are: "
+            android:layout_margin="8dp"/>
 
         <TextView
 
@@ -25,7 +26,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q2 you are: "
+            android:layout_margin="8dp"/>
 
         <TextView
 
@@ -34,7 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q3 you are: "
+            android:layout_margin="8dp"/>
 
         <TextView
 
@@ -43,7 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q4 you are: "
+            android:layout_margin="8dp"/>
 
         <TextView
 
@@ -52,7 +56,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q5 you are: "
+            android:layout_margin="8dp"/>
 
         <TextView
 
@@ -61,7 +66,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q6 you are: "
+            android:layout_margin="8dp"/>
 
         <TextView
 
@@ -70,11 +76,12 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="You are: "/>
+            android:text="Q7 you are: "
+            android:layout_margin="8dp"/>
 
         <ImageView
 
-            android:id="@+id/monokumas"
+            android:id="@+id/monokumap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
